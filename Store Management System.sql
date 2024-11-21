@@ -49,7 +49,6 @@ CREATE TABLE user_orders (
 CREATE TABLE orders_details (
     order_details_id INT PRIMARY KEY AUTO_INCREMENT,
     order_date TIMESTAMP,
-    product_id INT,
     quantity INT,
     price_on_purchase FLOAT,
     FOREIGN KEY (order_id) REFERENCES user_orders(order_id) ON DELETE SET NULL,
