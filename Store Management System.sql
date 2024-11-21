@@ -48,7 +48,6 @@ CREATE TABLE user_orders (
 
 CREATE TABLE orders_details (
     order_details_id INT PRIMARY KEY AUTO_INCREMENT,
-    order_id INT,
     order_date TIMESTAMP,
     product_id INT,
     quantity INT,
