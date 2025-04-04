@@ -1,4 +1,3 @@
-DROP DATABASE store_managment_system;
 CREATE database store_managment_system;
 use store_managment_system;
 CREATE TABLE users (
