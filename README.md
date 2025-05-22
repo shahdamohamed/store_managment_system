@@ -62,10 +62,3 @@ USE store_management_system;
 3. Run the provided SQL script to create tables and insert sample data.
 
 4. Connect the database to your backend system (Django, Flask, etc.).
-
-## 📌 Future Enhancements
-- Add payment integration to handle transactions.
-
-- Implement an API for seamless integration with a web or mobile frontend.
-
-- Enhance security with password hashing and authentication mechanisms.
